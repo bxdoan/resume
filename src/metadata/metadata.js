@@ -80,6 +80,10 @@ sendgrid...) or payment (stripe, xendit)
         "React.js",
         "Jenkins",
         "Mnesia Database",
+        "PostgreSQL",
+        "Redis",
+        "Celery",
+        "Selenium",
       ],
       contents: `
 Session Border Gateway(SBG)
