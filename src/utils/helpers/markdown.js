@@ -1,5 +1,6 @@
-const markdown = require('./markdown').markdown;
+const MarkdownIt = require('markdown-it');
+const md = new MarkdownIt();
 
-module.exports = function (text) {
-  return markdown.toHTML(text);
+module.exports = function(text) {
+  return md.render(text || '');
 };

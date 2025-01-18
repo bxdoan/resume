@@ -26,7 +26,7 @@
     "fs-extra": "^9.0.1",
     "handlebars": "^4.7.6",
     "live-server": "^1.2.1",
-    "markdown": "^0.5.0",
+    "markdown-it": "^13.0.1",
     "puppeteer": "^19.6.3",
     "watch": "^1.0.2"
   },
@@ -35,5 +35,6 @@
     "deasync": "^0.1.28",
     "handlebars": "^4.7.6",
     "speakingurl": "^14.0.1"
-  }
+  },
+  "packageManager": "yarn@4.5.3+sha512.3003a14012e2987072d244c720506549c1aab73ee728208f1b2580a9fd67b92d61ba6b08fe93f6dce68fd771e3af1e59a0afa28dd242dd0940d73b95fedd4e90"
 }
