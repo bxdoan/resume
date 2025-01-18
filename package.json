@@ -1,0 +1,38 @@
+{
+  "name": "resume",
+  "description": "The Curriculum Vitae Project",
+  "scripts": {
+    "build": "node src/build.js",
+    "watch": "chokidar '**/*' -i 'dist/**/*' -c 'npm run build'",
+    "prestart": "npm run build",
+    "start": "npm run watch & live-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bxdoan/resume.git"
+  },
+  "keywords": [
+    "cv",
+    "resume"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bxdoan/resume/issues"
+  },
+  "homepage": "https://github.com/bxdoan/resume#readme",
+  "devDependencies": {
+    "chokidar-cli": "^2.1.0",
+    "fs-extra": "^9.0.1",
+    "handlebars": "^4.7.6",
+    "live-server": "^1.2.1",
+    "markdown": "^0.5.0",
+    "puppeteer": "^19.6.3",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "dayjs": "1.7.8",
+    "deasync": "^0.1.28",
+    "speakingurl": "^14.0.1"
+  }
+}
