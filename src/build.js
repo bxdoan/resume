@@ -30,7 +30,10 @@ fs.writeFileSync(outputDir + "/index.html", html);
 
 let sync = true;
 buildPdf = async function (inputFile, outputFile) {
-  const browser = await Puppeteer.launch({ headless: "new" });
+  const browser = await Puppeteer.launch({ 
+    headless: "new",
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
+  });
   const page = await browser.newPage();
 
   await page.goto(`file://${inputFile}`, {
