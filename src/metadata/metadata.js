@@ -10,9 +10,9 @@ module.exports = {
     Stackoverflow:
       '<a href="https://stackoverflow.com/users/6399715/bxdoan"><i class="fa-brands fa-stack-overflow fact-icon"></i></i>Stackoverflow</a>',
     Email:
-      '<a href="mailto:bxdoan93@gmail.com"><i class="fa-solid fa-envelope fact-icon"></i>bxdoan93@gmail.com</a>',
+      '<a href="mailto:doanbui122024@gmail.com"><i class="fa-solid fa-envelope fact-icon"></i>doanbui122024@gmail.com</a>',
     Phone:
-      '<a href="#"><i class="fa-solid fa-phone fact-icon"></i></i>0904195065</a>',
+      '<a href="#"><i class="fa-solid fa-phone fact-icon"></i></i>09156770892</a>',
   },
   skills: [
     ["Python"],
